@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+.crown-img {
+  height: 10vh;
+}
+.wisky-bottle {
+  object-fit: cover;
+  height: 90vh;
+}
+
+.card {
+  height: 50vh;
+  justify-content: center;
+}
+
+.crown-recepies {
+  height: 10rem;
+  width: 10rem;
+  object-fit: contain;
+}
+
+.btn:hover {
+  background-color: #8a50c1;
+}
+
+.mdi {
+  height: 7em;
+  width: 7em;
+}
+
+.mdi:hover {
+  background-color: #ab86cd;
+}
+
+.head-bar {
+  color: #8a50c1;
+}
+
+p:hover {
+  background-color: #ab86cd;
+}
+
+.bottom-bar {
+  background-color: #8a50c1;
+}
